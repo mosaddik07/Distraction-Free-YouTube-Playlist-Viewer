@@ -35,7 +35,7 @@ function App() {
   // Update document title when video changes
   useEffect(() => {
     if (currentVideo) {
-      document.title = `Now Playing: ${currentVideo.title} - YouTube Playlist Viewer`;
+      document.title = `${currentVideo.title} - YouTube Playlist Viewer`;
     } else if (activePlaylist) {
       document.title = `${activePlaylist.title} - YouTube Playlist Viewer`;
     } else {
